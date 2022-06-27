@@ -1,0 +1,123 @@
+/* .container{
+
+
+
+  border: 2px solid black;
+  display: flex;
+  height: 100evh;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+
+.fItems{
+  background-color: red;
+  height: 122px;
+  width: 122px;
+  margin: 10px;
+} */
+
+
+
+.container{
+  display: flex;
+  border: 2px solid black;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align:left;
+  
+}
+
+.oneCardConatine {
+  background-color: rgb(0, 255, 242);
+  width: 250px;
+  min-height: 250px;
+  height: auto;
+  margin: 10px;
+  border: 1px solid purple;
+  border-radius: 6px;
+  font-size: 17px;
+}
+
+.oneCardConatine:hover {
+  
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+
+  
+  
+}
+
+.oneCardConatine > h1 {
+  font-size: 18px;
+}
+
+.oneCardConatine > h3 {
+  font-size: 14px;
+  
+}
+
+.oneCardConatine > p {
+  font-size: 12px;
+}
+
+h1:hover{
+  
+}
+
+.Popup {
+  position: fixed;
+  width: 300px;
+  left: 450px;
+  height: auto;
+  right: 100px;
+  background-color:#6ca9d6;
+  color: white;
+  width: 300px;
+  min-height: 200px;
+  height: auto;
+  margin: 2px;
+  border: 2px solid purple;
+  border-radius: 6px;
+  font-size: 20px;
+  
+
+}
+
+
+
+
+.cancelPopup{
+
+  background-color: red;
+  position: absolute;
+  left: 274px;
+  color: white;
+  top: 2px;
+  border-radius: 4px;
+
+}
+
+.cancelPopup:hover{
+  cursor: pointer;
+}
+
+
+
+/* 
+.Popup > p {
+  background-color: yellow;
+  width: 300px;
+  min-height: 200px;
+  height: auto;
+  margin: 2px;
+  border: 2px solid purple;
+  border-radius: 6px;
+  font-size: 20px;
+  
+
+} */
